@@ -1,63 +1,64 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Business Card</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Business Card</title>
 
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <main class="wrap">
+  <section class="card">
 
-    <section class="card">
+    <div class="top">
 
-      <!-- Avatar -->
-      <div class="avatar">
-        <svg viewBox="0 0 120 120">
-          <defs>
-            <linearGradient id="g" x1="0" x2="1">
-              <stop offset="0" stop-color="#6C63FF"/>
-              <stop offset="1" stop-color="#00C2FF"/>
-            </linearGradient>
-          </defs>
-
-          <rect width="120" height="120" rx="20" fill="url(#g)"/>
-
-          <text
-            x="50%"
-            y="55%"
-            dominant-baseline="middle"
-            text-anchor="middle"
-            fill="#fff"
-            font-size="40"
-            font-family="sans-serif"
-            font-weight="700">
-            RJB
-          </text>
-        </svg>
+      <div class="circle">
+        RJB
       </div>
 
-      <!-- Info -->
-      <div class="info">
-        <h1>REA JANE BAULITE</h1>
-
-        <p class="role">Computer Science Student</p>
-
-        <p class="company">Placeholder Co.</p>
-
-        <ul class="contact">
-          <li>📞 (09934173407)</li>
-          <li>✉️ hello@example.com</li>
-          <li>🌐 example.com</li>
-          <li>📍 123 Placeholder Esperanza Pontevedra Capiz, Philippines</li>
-        </ul>
+      <div class="text">
+        <h1>Rea Jane Baulite</h1>
+        <h3>Designer</h3>
       </div>
 
-    </section>
+    </div>
 
-  </main>
+    <div class="line"></div>
+
+    <div class="details">
+
+      <div class="item">
+        <span>📱</span>
+        <p>09934173407</p>
+      </div>
+
+      <div class="item">
+        <span>📧</span>
+      <p>reajanebaulite@gmail.com</p>
+      </div>
+
+      <div class="item">
+        <span>🌍</span>
+        <p>www.reajanedesigns.com</p>
+      </div>
+
+      <div class="item">
+        <span>📌</span>
+        <p>Bailan Pontevedra Capiz, Philippines</p>
+      </div>
+
+    </div>
+
+    <div class="socials">
+
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+
+    </div>
+
+  </section>
 
 </body>
 </html>
